@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Hero from './pages/Hero';
 import Overview from './pages/Overview';
 import Dashboard from './pages/Dashboard';
+import Contributors from './pages/Contributors';
 import Contact from './pages/Contact';
 import Login from './Components/Login';
 import SignUp from './Components/Signup';
@@ -17,6 +18,7 @@ const App = () => {
         <Route index element={<Hero />} />
         <Route path="/Overview" element={<Overview />} />
         <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/Contributors" element={<Contributors />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/SignUp" element={<SignUp />} />

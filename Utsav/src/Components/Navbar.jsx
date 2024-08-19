@@ -38,6 +38,7 @@ const Navbar = () => {
         <ul className={`fixed md:static top-0 left-0 w-full h-full md:h-auto bg-[#a2a4b6] flex flex-col md:flex-row items-center md:items-center justify-center transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:transform-none md:transition-none z-10`}>
           <NavItem to="/overview" text="Home" isActive={location.pathname === '/'} />
           <NavItem to="/dashboard" text="Dashboard" isActive={location.pathname === '/dashboard'} />
+          <NavItem to="/contributors" text="Contributors" isActive={location.pathname === '/contributors'} />
           <NavItem to="/contact" text="Contact Us" isActive={location.pathname === '/contact'} />
         </ul>
       </div>

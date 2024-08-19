@@ -13,6 +13,7 @@ export const contributorsData = [
     work: 'Artificial Intelligence & Machine Learning Engineer',
     linkedin: 'https://www.linkedin.com/in/utsavsinghal2604/',
     github: 'https://github.com/UTSAVS26',
+    content: 'Utsav Singhal led the AI/ML aspects of the project, focusing on developing the machine learning models and algorithms for object detection and tracking. He also provided guidance on integrating these models with the web application.'
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const contributorsData = [
     work: 'Machine Learning Engineer',
     linkedin: 'https://www.linkedin.com/in/ansh-chawla-040a0321a',
     github: 'https://github.com/An-sh27',
+    content: 'Ansh Chawla was responsible for implementing and fine-tuning the machine learning algorithms used in the project. He worked closely with Utsav to optimize the performance of the object detection models and contributed to the analysis of the micro-Doppler signatures.'
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ export const contributorsData = [
     work: 'Backend Developer',
     linkedin: 'https://www.linkedin.com/in/ayushsinghal021',
     github: 'https://github.com/ayushsinghal021',
+    content: 'Ayush Singhal developed the backend infrastructure of the web application, including setting up the server-side logic and integrating the machine learning models with the backend services. He ensured that the application could efficiently handle data processing and model predictions.'
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ export const contributorsData = [
     work: 'Frontend Developer',
     linkedin: 'https://www.linkedin.com/in/sanya-behera',
     github: 'https://github.com/SanyaB1801',
+    content: 'Sanya Behera designed and implemented the frontend of the web application, focusing on creating an intuitive user interface for interacting with the object detection and tracking features. She worked on integrating the frontend with the backend services to provide a seamless user experience.'
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ export const contributorsData = [
     work: 'Frontend Developer',
     linkedin: 'https://www.linkedin.com/in/nandani-daga-493292204',
     github: 'https://github.com/Nandanidaga',
+    content: 'Nandani Daga collaborated with Sanya to develop the frontend components of the application. She was involved in enhancing the user experience, implementing interactive features, and ensuring that the user interface was responsive and functional across different devices.'
   },
   {
     id: 6,
@@ -53,5 +58,6 @@ export const contributorsData = [
     work: 'Python Developer',
     linkedin: 'https://www.linkedin.com/in/anshulbansal9268',
     github: 'https://github.com/ANSHUL-9268',
+    content: 'Anshul Bansal worked on the Python-based components of the project, including data processing and integration of various modules. He contributed to the development of scripts for data handling and supported the implementation of the machine learning models within the Python ecosystem.'
   },
 ];

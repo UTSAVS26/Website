@@ -1,5 +1,4 @@
 import React from 'react';
-import ContributorsList from '../Components/Contributors/ContributorsList'; // Update the path accordingly
 
 const Overview = () => {
   return (
@@ -24,9 +23,6 @@ const Overview = () => {
           <p className="text-lg mb-6 text-center">
             Our Micro-Doppler Based Target Classification system is designed to enhance the capabilities of security and surveillance systems, offering precise and reliable identification of aerial targets. Explore the potential of our solution and how it can be integrated into your security infrastructure.
           </p>
-        </div>
-        <div className="contributors-section">
-          <ContributorsList />
         </div>
       </div>
     </div>

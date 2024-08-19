@@ -23,6 +23,11 @@ const Hero = () => {
                 Dashboard
               </button>
             </Link>
+            <Link to="/Contributors">
+              <button className="bg-white text-black py-3 px-6 font-medium rounded-full m-2 hover:bg-gray-300">
+                Contributors
+              </button>
+            </Link>
             <Link to="/Contact">
               <button className="bg-white text-black py-3 px-6 font-medium rounded-full m-2 hover:bg-gray-300">
                 Contact Us
