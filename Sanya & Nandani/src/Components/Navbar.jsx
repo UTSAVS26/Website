@@ -27,24 +27,26 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full text-white px-4 fixed top-0 left-0 flex items-center justify-between z-10 bg-[#a2a4b6] ${scrolled ? "bg-[#a2a4b6] transition-all" : ""}`}
-      style={{ height: '60px' }} // Set the height of the navbar
+      className={`w-full text-white px-4 fixed top-0 left-0 flex items-center justify-between z-10 bg-[#1C1C1C] ${scrolled ? "bg-[1C1C1C] transition-all" : ""}`}
+      style={{ height: '70px' }} // Set the height of the navbar
     >
       <Link to="/" className="flex items-center">
         <img src={logo} alt="logo" className="w-[50px] h-[50px] rounded-full border-2 border-white" />
-        <span className="text-white font-bold text-xl ml-4">DopplerIQ</span>
+        <span className="text-white font-bold text-xl ml-4">AeroScan</span>
       </Link>
       <div className="flex-grow flex items-center justify-center">
-        <ul className={`fixed md:static top-0 left-0 w-full h-full md:h-auto bg-[#a2a4b6] flex flex-col md:flex-row items-center md:items-center justify-center transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:transform-none md:transition-none z-10`}>
-          <NavItem to="/overview" text="Home" isActive={location.pathname === '/'} />
+        <ul className={`fixed md:static top-0 left-0 w-full h-full md:h-auto bg-[1C1C1C] flex flex-col md:flex-row items-center md:items-center justify-center transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:transform-none md:transition-none z-10`}>
+          <NavItem to="/overview" text="Home" isActive={location.pathname === '/overview'} />
+          <NavItem to="/features" text="Features" isActive={location.pathname === '/features'} />
           <NavItem to="/dashboard" text="Dashboard" isActive={location.pathname === '/dashboard'} />
           <NavItem to="/contributors" text="Contributors" isActive={location.pathname === '/contributors'} />
+          <NavItem to="/howitworks" text="How it Works" isActive={location.pathname === '/howitworks'} />
           <NavItem to="/contact" text="Contact Us" isActive={location.pathname === '/contact'} />
         </ul>
       </div>
       <div className="flex items-center space-x-2">
-        <Link to="/login" className="text-white px-4 py-2 rounded-full bg-[#7c7d8b] hover:bg-[#5b5c6e] active:bg-[#4a4b5d] transition duration-300">Login</Link>
-        <Link to="/signup" className="text-white px-4 py-2 rounded-full bg-[#7c7d8b] hover:bg-[#5b5c6e] active:bg-[#4a4b5d] transition duration-300">Signup</Link>
+        <Link to="/login" className="text-white px-4 py-2 rounded-full bg-orange-600 hover:bg-[#FFFFFF] hover:text-orange-600 active:bg-[#4a4b5d] transition duration-300">Login</Link>
+        <Link to="/signup" className="text-orange-600 border border-gray-800 px-4 py-2 rounded-full bg-[#101010] hover:bg-[#FFFFFF] hover:text-orange-600 active:bg-[#4a4b5d] transition duration-300">Signup</Link>
       </div>
       <button
         className="text-white text-2xl md:hidden z-20"
