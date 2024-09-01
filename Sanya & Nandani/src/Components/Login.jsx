@@ -25,7 +25,7 @@ const Login = () => {
     };
 
     return (
-        <div className="flex items-center justify-center h-[593px] bg-[#f4f4f4]">
+        <div className="flex items-center justify-center h-[920px]">
             <div className="w-full max-w-md bg-white shadow-md rounded-lg p-8">
                 <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
                 {error && <p className="text-red-500 text-center mb-4">{error}</p>}
@@ -54,7 +54,7 @@ const Login = () => {
                     </div>
                     <button
                         type="submit"
-                        className="w-full py-2 bg-[#ff951d] text-white font-semibold rounded-lg hover:bg-[#e07b2d] focus:outline-none focus:ring-2 focus:ring-[#ff951d]"
+                        className="w-full py-2 bg-orange-500 text-white font-semibold rounded-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-[#ff951d]"
                     >
                         Login
                     </button>
